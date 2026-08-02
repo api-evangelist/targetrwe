@@ -1,8 +1,26 @@
 aid: targetrwe
-name: Targetrwe
-description: 'Targetrwe is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/targetrwe.png
+name: Pedestal Health (formerly Target RWE)
+description: 'Pedestal Health, formerly Target RWE (and NoviSci), is a Durham, North Carolina real-world
+  evidence and health-data company serving life sciences organizations and health systems. It generates
+  regulatory-grade real-world evidence from large-scale observational data and longitudinal patient cohorts
+  across hepatology, dermatology, and gastroenterology (including the TARGET-NASH, TARGET-Derm, and
+  TARGET-Gastro registries), supporting clinical development, regulatory strategy, and care delivery.
+  The company operates as a data, research, and services provider and does not publish a public developer
+  API, SDK, or documentation surface. This profile was surfaced as a portfolio company of Norwest Venture
+  Partners and enriched from the company''s public website (targetrwe.com now redirects to
+  pedestalhealth.com).'
 url: https://raw.githubusercontent.com/api-evangelist/targetrwe/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +30,41 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Life Sciences
+- Real World Evidence
+- Health Data
+- Clinical Research
+- Analytics
+- Pharmaceuticals
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v1
 common:
+- type: DomainSecurity
+  url: security/targetrwe-domain-security.yml
 - type: Website
-  url: https://targetrwe.com
+  url: https://www.pedestalhealth.com
+- type: LLMsTxt
+  url: llms/targetrwe-llms.txt
+- type: PrivacyPolicy
+  url: https://www.pedestalhealth.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.pedestalhealth.com/engage-terms-of-use/
+- type: Blog
+  url: https://www.pedestalhealth.com/resources/news/
+- type: Support
+  url: https://www.pedestalhealth.com/contact/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/pedestalhealth/

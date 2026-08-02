@@ -1,0 +1,24 @@
+# Pedestal Health
+
+> Pedestal Health delivers regulatory-grade real-world evidence for life sciences across hepatology, dermatology, and gastroenterology.
+
+## Markdown access
+
+Append .md to any page URL for a markdown version. Pages: `/{slug}.md`; Articles: append .md to article URLs; Team: `/people/{slug}.md`.
+
+## Key pages
+
+- [Home](https://www.pedestalhealth.com/index.md): Home page
+- [Pedestal Health](https://www.pedestalhealth.com/index.md)
+- [Privacy Policy](https://www.pedestalhealth.com/privacy-policy.md)
+- [Search](https://www.pedestalhealth.com/search.md)
+- [About Us](https://www.pedestalhealth.com/about.md)
+- [Health Systems](https://www.pedestalhealth.com/health-systems.md)
+- [Use of glucagon-like peptide 1 receptor agonists in patients with MASLD in a real-world setting is associated with slower disease progression and lower all-cause mortality](https://www.pedestalhealth.com/resources/publications/oral-presentation/use-of-glucagon-like-peptide-1-receptor-agonists-in.md)
+- [Non-alcoholic Steatohepatitis Disease Progression in Participants from the United States TARGET-NASH Real World Longitudinal Observational Study](https://www.pedestalhealth.com/resources/publications/oral-presentation/non-alcoholic-steatohepatitis-disease-progression-in.md)
+- [Clinical Profile of Nonalcoholic Fatty Liver Disease in Adults with Type 2 Diabetes Mellitus](https://www.pedestalhealth.com/resources/publications/oral-presentation/clinical-profile-of-nonalcoholic-fatty-liver-disease-in.md)
+
+## Optional
+
+- [Markdown index](https://www.pedestalhealth.com/markdown-index.txt): Complete list of all pages available in markdown format
+- [Site information](https://www.pedestalhealth.com/site-info.md): Factual summary of site content (counts, lists) for support and AI
